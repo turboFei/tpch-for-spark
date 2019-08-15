@@ -104,7 +104,7 @@ location '${env:HDFS_DATA_PATH}/part'
 tblproperties ('serialization.null.format'='')
 ;
 
-create external table IF NOT EXISTS rt_region(
+create external table IF NOT EXISTS et_region(
 R_REGIONKEY int,
 R_NAME string,
 R_COMMENT string

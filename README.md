@@ -43,12 +43,12 @@ create-parquet-partition-tables.sh
 
 ## 7. Spark Sql 方式执行测试
 ```shell
-./spark-query-tpcds.sh
+./spark-query-tpch.sh
 ```
 
 ## 8. Beeline方式执行测试
 ```shell
-./spark-query-tpcds-beeline.sh
+./spark-query-tpch-beeline.sh
 ```
 注意需要先启动对应的thrift server
 
